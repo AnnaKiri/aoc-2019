@@ -24,14 +24,14 @@ public class Part2Recursion {
 			System.out.println("File not found");
 		}
 		
-			int result = 0;
-			for (int i = 0; i < modules.size(); i++) {
-				int module = modules.get(i);
+		int result = 0;
+		for (int i = 0; i < modules.size(); i++) {
+			int module = modules.get(i);
 
-				result += findFuel(module);
-			}
-			
-			System.out.println(result);
+			result += findFuel(module);
+		}
+
+		System.out.println(result);
 
 	}
 
